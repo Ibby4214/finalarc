@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-
-
 <style>
  
   .Header
   {
       background-color: black;
-      background-image: linear-gradient(brown, black);
+      background-image: url("images/b7.jpg");
       margin-bottom: 0.5px;
       font-family: sans-serif;
       font-weight: bold;
@@ -45,14 +43,14 @@
   
   .Header a:hover
   {
-      color: red;
+      color: blue;
       
   }
   
   .Header a:active
   {
       
-      color: red;
+      color: blue;
   }
 
   .Heading1
@@ -64,7 +62,7 @@
   {
     display: flex;
     align-items: center;
-    background-image: url("images/background1.jpg");
+    background-image: url("images/b7.jpg");
     background-size: 878px;
     font-weight: bold;
     font-variant-caps: all-petite-caps;
@@ -81,10 +79,57 @@
     text-align: center;
     font-family:arial;
     color: white;
-    
-  
+
   }
 
+  *
+{
+    box-sizing: border-box;
+}
+
+  .Side ::after
+{
+   clear: both;
+   display: table;
+   
+}
+
+.h4
+{
+  text-align: center;
+  background-image: linear-gradient(blue, black);
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+
+.h5
+{
+  text-align: center;
+  background-image: linear-gradient(blue, black);
+  color: white;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+
+.up 
+{
+    width: 33.3%;
+    padding: 5px;
+    float:left ;
+    text-align: center;
+    background-image: linear-gradient(blue, black);
+    background-image: url("images/b7.jpg");
+    color: blanchedalmond;
+    background-size: 878px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+}
 
   </style>
 
@@ -123,41 +168,51 @@
     <p> From Steel, Almunium, Stainless & Cast Iron Welding</p>
     <p> Final Arc Fabrication also do Mig, Tig Arc and Gas Welding </p>
     <p> We work on all sort of Truck, Truck body and Trailer Repair</p>
+    <p> Final Arc Fabrication can also provide Outdoor services such as Steel pergolas and carports</p>
     </div>
     <video autoplay muted loop id="welder1">
     <source src="images/Weldingvid2.mp4" type="video/mp4" >
     </video>
     </div>
+    <div class = "h4">
+    <h2> We are also specicialized in the following specialities</h2>
+  </div>
 
-    
-  
-
-    <p> Final Arc Fabrication can also provide Outdoor services</p>
-    <p> Steel Pergolas</p>
-    <p> Carports</p>
-
-    <h4> We are also specicialized in the following specialities</h4>
-
-    <h5>Innovates</h5>                
-    <p>Metal Furniture</p>  
-    <p>Outdoor Services</p>
-    <p>Fireguards Gates</p>
-    <p>Railings & more</p>
-
-    <h5>Fabricates</h5>                
-    <p>Steel Furniture</p>  
-    <p>Truck and Trailer Modification</p>
-    <p>Custom Designs</p>
-    <p>Certificate of Fitness</p>
-
-    <h5>Repairs</h5>                
+    <div class = "Side">
+      <div class="up">   
+  <img class="special"src="images\pic1.jpg" style="width: 250px" >
+  <h2> Innovates</h2>
+  <p> Metal Furniture</p>
+  <p>Outdoor Services</p>
+  <p>Fireguards Gates</p>
+  <p>Railings & more</p>
+</div>
+  <div class="up">
+  <img class="special2"src="images\Truckimagerepair2.jpeg" style="width: 250px">
+  <h2> Fabricates</h2>
+  <p>Steel Furniture</p>  
+  <p>Truck and Trailer Modification</p>
+  <p>Custom Designs</p>
+  <p>Certificate of Fitness</p>
+</div>
+  <div class="up">
+  <img class="special3"src="images\pic5.jpg" style="width: 250px">
+  <h2> Repairs</h2>
     <p>Site Work</p>  
     <p>Mobile Welding</p>
     <p>Metal Work Repair</p>
+    <p>Truck and Trailer Body</p>
+</div>
+</div>
     
+    <br>
+    <div class = "h4">
     <h2> Click on the following button to view more of our world class services </h2>
     <button onclick="window.location.href='service.html'"> View More Services </button>
-    
+  </div>
+  <video autoplay muted loop id="welder1">
+    <source src="images/welder1.mp4" type="video/mp4" >
+    </video>
     <h2> Contact Hillman for mobile welding and Fabrication rates! </h2>
     <button onclick="window.location.href='contactpage.html'"> Go to Contact Us Page </button>
 
